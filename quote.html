@@ -1,0 +1,273 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dikobe Strategic Ventures | Request a Quote</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="navbar">
+
+    <a href="index.html" class="logo">
+        <img src="images/logo.png.png"
+             alt="Dikobe Strategic Ventures Logo">
+    </a>
+
+    <button class="menu-toggle" id="menu-toggle">
+        <i class="fas fa-bars"></i>
+    </button>
+
+    <nav>
+        <ul class="nav-links" id="nav-links">
+
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html#about">About Us</a></li>
+            <li><a href="services.html">Services</a></li>
+
+            <li>
+                <a href="quote.html" class="active nav-quote">
+                    Get a Quote
+                </a>
+            </li>
+
+        </ul>
+    </nav>
+
+</header>
+
+<main>
+
+    <section class="page-banner quote-banner">
+
+        <div class="banner-overlay"></div>
+
+        <div class="page-banner-content">
+
+            <p class="eyebrow">LET'S WORK TOGETHER</p>
+
+            <h1>Request a Quote</h1>
+
+            <p>
+                Tell us about your project and
+                our team will get back to you.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <section class="quote-page section">
+
+        <div class="quote-layout">
+
+            <div class="quote-info">
+
+                <p class="section-label">GET IN TOUCH</p>
+
+                <h2>Let's Discuss Your Needs</h2>
+
+                <div class="gold-line"></div>
+
+                <p>
+                    Complete the form and provide as much detail
+                    as possible about the service you require.
+                    We will use your information to understand
+                    your needs and prepare the appropriate response.
+                </p>
+
+                <div class="contact-item">
+
+                    <i class="fab fa-whatsapp"></i>
+
+                    <div>
+                        <strong>WhatsApp</strong>
+
+                        <a href="https://wa.me/27608763221"
+                           target="_blank"
+                           rel="noopener">
+                            060 876 3221
+                        </a>
+                    </div>
+
+                </div>
+
+                <div class="contact-item">
+
+                    <i class="fab fa-instagram"></i>
+
+                    <div>
+                        <strong>Instagram</strong>
+
+                        <a href="https://www.instagram.com/dikobe.s.v"
+                           target="_blank"
+                           rel="noopener">
+                            @dikobe.s.v
+                        </a>
+                    </div>
+
+                </div>
+
+                <div class="contact-item">
+
+                    <i class="fas fa-location-dot"></i>
+
+                    <div>
+                        <strong>Location</strong>
+
+                        <span>
+                            21 Brackenshire,
+                            The Orchards,
+                            South Africa
+                        </span>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="quote-form-container">
+
+                <form id="quote-form"
+                      action="https://formspree.io/f/xdawayey"
+                      method="POST">
+
+                    <div class="form-row">
+
+                        <div class="form-group">
+
+                            <label for="name">Full Name</label>
+
+                            <input
+                                type="text"
+                                id="name"
+                                name="name"
+                                placeholder="Enter your full name"
+                                required>
+
+                        </div>
+
+                        <div class="form-group">
+
+                            <label for="email">Email Address</label>
+
+                            <input
+                                type="email"
+                                id="email"
+                                name="email"
+                                placeholder="Enter your email address"
+                                required>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="phone">Phone Number</label>
+
+                        <input
+                            type="tel"
+                            id="phone"
+                            name="phone"
+                            placeholder="Enter your phone number"
+                            required>
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="service">Service Needed</label>
+
+                        <select id="service"
+                                name="service"
+                                required>
+
+                            <option value="" selected disabled>
+                                Select a service
+                            </option>
+
+                            <option value="Cleaning Services">
+                                Cleaning Services
+                            </option>
+
+                            <option value="Window & Facade Cleaning">
+                                Window &amp; Facade Cleaning
+                            </option>
+
+                            <option value="Roof, Gutter & Exterior Maintenance">
+                                Roof, Gutter &amp; Exterior Maintenance
+                            </option>
+
+                            <option value="Other">
+                                Other
+                            </option>
+
+                        </select>
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="message">Project Details</label>
+
+                        <textarea
+                            id="message"
+                            name="message"
+                            rows="7"
+                            placeholder="Tell us about the work you need..."
+                            required></textarea>
+
+                    </div>
+
+                    <button type="submit" class="submit-btn">
+
+                        Send via Email
+                        <i class="fas fa-envelope"></i>
+
+                    </button>
+
+                    <button type="button"
+                            class="submit-btn"
+                            id="whatsapp-submit"
+                            style="margin-top: 15px;">
+
+                        Send via WhatsApp
+                        <i class="fab fa-whatsapp"></i>
+
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+</main>
+
+<footer>
+
+    <div class="footer-content">
+
+        <p>
+            &copy; 2026 Dikobe Strategic Ventures.
+            All Rights Reserved.
+        </p>
+
+    </div>
+</footer>
+
+<script src="script.js"></script>
+<script src="quote.js"></script>
+
+</body>
+</html>
